@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family:Helvetica,Sans-serif;
+  overflow-x:hidden;
+}
+h1 {
+  text-align:center;
+}
+.page {
+  background-image: url('images/Risorsa 1.png');
+  width:100vw;
+  height:100vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
+}
+.overflow {
+  position:absolute;
+  width:100vw;
+  height:80vh;
+  top:100vh;
+  background-color:#FFF;
+}
+#parallax {
+  transform-style: preserve-3d;
+  height:120vh;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+
+#keyart-1 {
+  background-image: url('images/Risorsa 2.png');
+  transform:translate3d(0,-10px,-.7px) ;
+}
+#keyart-2 {
+  background-image: url('images/Risorsa 3.png');
+  transform:translate3d(0,-15px,-.4px) ;
+}
+#keyart-3 {
+  background-image: url('images/Risorsa 4.png');
+  transform:translate3d(0,-20px,-.1px) ;
+}
+#keyart-4 {
+  background-image: url('images/Risorsa 5.png');
+  transform:translate3d(0,25px,.1px) 
+}
+#keyart-5 {
+  background-image: url('images/Risorsa 6.png');
+  transform:translate3d(0,30px,.2px) 
+}
